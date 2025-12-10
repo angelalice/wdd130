@@ -1,0 +1,108 @@
+/* Halloween Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Creepster&family=Eater&family=Libertinus+Serif+Display&family=Shadows+Into+Light&display=swap');
+
+nav{
+    background-color: rgb(223, 93, 61);
+}
+ul{
+    list-style:none;  /*Removes the bullet point */
+    font-size: 23px;
+    margin :0;  
+    text-align: center;
+    padding: 10px;  
+}
+
+li{
+    display: inline-block;  /* Removes the constriants on the element, allows it to become horizontal */
+    margin-right: 90px; /* Adds spaces between the words */
+    
+}
+
+li:hover{
+    color: rgb(122, 43, 7);
+    opacity: .5; 
+    transform: scale(1.0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-image: url('../images/halloween-b.jpg');  
+    justify-items: center;
+    color: rgb(199, 172, 157);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#wrapper{
+    /* Linear gradient only works as a background image, 
+    background color property seems to be constrained to only one color*/
+    background-image: linear-gradient(to bottom right, rgb(104, 102, 102), rgb(2, 2, 2)); 
+    overflow:hidden;
+
+    /* Need to spend more time to figure out how to get css to create a shimmering effect */
+    animation: shimmer 2.5s infinite linear;
+    border: 5px solid rgb(223, 93, 61);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    width: 900px;
+   
+}
+
+h1, h2 {
+    font-family: "Eater", cursive;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h1:hover{
+    transition: transform 0.5s;
+    transform: rotateY(360deg);
+}
+
+h2{
+    font-size: 35px;
+    text-align: left;
+    padding: 25px;
+    margin: 0%;
+    text-shadow: 0px 0px 30px rgb(221, 196, 196);
+}
+
+p{
+    font-family: "Shadows Into Light","Shadows Into Light Two",sans-serif;
+    font-size: 20px;
+    border: 5px solid lightgray;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 15px;
+}
+
+p:hover{
+    background-image: linear-gradient(to bottom right,rgb(255, 108, 72),rgb(51, 14, 5));
+}
+
+
+img{
+    display: inline-block;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px 10px rgb(235, 152, 75);
+}
+
+img:hover{
+    transform:skewX(50deg);
+    transition: transform 0.5s;
+}
+
+footer{
+    background-color: rgb(223, 93, 61);
+    padding: 10px;
+    padding:13px;
+    margin-top:40px;
+}

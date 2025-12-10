@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        /* Insert styles here */
+        body{
+            background-image: url(images/christus.webp);
+            justify-items: center;
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        #wrapper{
+           width: 645px;
+           height:600px;
+        }
+
+        #pres{
+            display:flex;
+            justify-content: center;
+            justify-content: space-between;
+            margin-left: 75px;
+            margin-right: 75px;
+        }
+
+        #twelve{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-gap: 10px;
+            margin-left: 75px;
+            margin-right: 75px;
+        }
+        
+        h1,h2{
+            font-family: "Helvetica", sans-serif;
+            text-align: center;
+        }
+
+        .apos{
+            width: 75px;
+            height: 75px;
+            border: 7px solid white;
+            border-radius: 50%;
+            overflow:hidden;
+        }
+
+        .apos img{
+            width: 75px;
+        }
+         
+        .spotlight{
+            width: 110px;
+            height: 110px;
+            border:8px solid white;
+            border-radius: 50%;
+            overflow:hidden;
+        }
+
+        .spotlight img{
+            width: 110px;
+        }
+        
+        #top {
+            width: 120px;
+            height: 120px;
+            border:7px solid white;
+            border-radius: 50%;
+            overflow:hidden;
+        }
+
+        #top img{
+            width: 120px;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <!-- Insert HTML elements here -->
+     
+     <div id="wrapper"> 
+          
+        <h1> First Presidency</h1>
+        <div id="pres">
+            <div class="spotlight"> <img src=" images/oaks.webp" alt="President Oaks"></div> 
+            <div class="spotlight" id="top"> <img src=" images/nelson.webp" alt="President Nelson"></div> 
+            <div class="spotlight"> <img src=" images/eyring.webp" alt="President Eyring"></div> 
+        </div>
+        <h2> Quorum of the Twelve Apostles</h2>
+        <div id="twelve"> 
+            <div class="apos"> <img src=" images/holland.webp" alt="Elder Holland"></div>
+            <div class="apos"> <img src=" images/uchtdorf.webp" alt="Elder Uchtdorf"></div> 
+            <div class="apos"> <img src=" images/bednar.webp" alt="Elder Bednar"></div> 
+            <div class="apos"> <img src=" images/cook.webp" alt="Elder Cook"></div> 
+            <div class="apos"> <img src=" images/christofferson.webp" alt="Elder christofferson"></div> 
+            <div class="apos"> <img src=" images/anderson.webp" alt="Elder Anderson"></div>
+            <div class="apos"> <img src=" images/rasband.webp" alt="Elder Rasband"></div>  
+            <div class="apos"> <img src=" images/stevenson.webp" alt="Elder Stevenson"></div>  
+            <div class="apos"> <img src=" images/renlund.webp" alt="Elder Renlund"></div> 
+            <div class="apos"> <img src=" images/gong.webp" alt="Elder Gong"></div> 
+            <div class="apos"> <img src=" images/soares.webp" alt="Elder Soares"></div> 
+            <div class="apos"> <img src=" images/kearon.webp" alt="Elder Kearon"></div> 
+        </div>
+     
+     </div>
+</body>
+</html>

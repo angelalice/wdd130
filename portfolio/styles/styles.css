@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Italianno&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quintessential&display=swap');
+
+title{
+    color:#e07a5f;
+    font-family: 'Italianno', sans-serif;
+}
+body{
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color:black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    border-bottom: 2px solid #fff7ed;
+    margin:0px;
+    padding:0px;
+    height:60px;
+    justify-content: space-between;
+    background: linear-gradient(120deg, #f2cc8f, rgb(40, 116, 103));
+}
+#studio_name{
+    font-family: "Italianno", cursive;
+    font-size: 30px;
+    width: 95px;
+    padding-left: 30px;
+    color:#e07a5f;
+}
+#studio_name:hover{
+    transform: rotate(360deg);
+    transition: transform 0.5s;
+    text-shadow: 0px 0px 10px #ee3f0f;
+}
+#link_container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    color:#8ed3bd;
+    font-size: 16px;
+}
+nav a:hover{
+    color:#90d7f3;
+    opacity: 0.7;
+    transform: scale(1.2);
+}
+h1{
+    color:#f2cc8f;
+    font-family: 'PlayFair Display', sans-serif;
+}
+h1:hover{
+    text-shadow: 0px 5px 40px rgb(131, 150, 48);
+    transform: skewX(20deg);
+}
+h2{
+    color:#8ed3bd;
+    font-family: 'PlayFair Display', sans-serif;
+
+}
+h3{
+    color:#f2cc8f;
+    font-family: 'PlayFair Display', sans-serif;
+    text-align: center;
+}
+p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    color:#fff7ed;
+} 
+/* Icons*/
+.fa-house {
+    color: rgb(165, 235, 222);
+    font-size: 31px;
+}
+.fa-star{
+    color: rgb(165, 235, 222);
+    font-size: 31px;
+}
+.fa-snowflake{
+    color:rgb(165, 235, 222);
+    font-size: 31px;
+}
+.fa-circle-user {
+    color: rgb(165, 235, 222);
+    font-size: 31px;
+}
+
+/* Beginning Section */
+.forborder{
+    border-bottom: 2px solid #fff7ed;
+}
+
+#beginning{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: left;
+    margin-top: 70px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+#beginning h1{
+    font-size: 40px;
+    grid-column:1/2 ;
+    grid-row:1 ;
+    align-self:center;
+}
+img{
+    border-radius: 35px;
+}
+#beginning img{
+    justify-self: right;
+    width: 300px;
+    height: auto;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+#beginning img:hover{
+    transform:translateY(-30px);
+    transition: transform 0.5s;
+}
+
+/* Middle Section */
+#middle{
+    display:grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top:30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#middle h2{
+    text-shadow: 0px 0px 30px rgb(210, 236, 232);
+    grid-column:1/3;
+    grid-row:1/2;
+    text-align: center;
+    align-self: center;
+}
+#home{
+    padding: 10px;
+    grid-column:1/2;
+    grid-row:2/3;
+}
+#home:hover{
+    background-image: linear-gradient(to bottom right, rgb(40, 116, 103), #f2cc8f);
+    transition: background-image 0.5s;
+}
+#wwr{
+    padding: 10px;
+    grid-column:2/3;
+    grid-row:2/3;
+}
+#wwr:hover{
+    background-image: linear-gradient(to bottom right, rgb(24, 88, 78), #b1843b);
+    transition: background-image 0.5s;
+}
+#ice{
+    padding: 10px;
+    grid-column:1/2;
+    grid-row:3/4;
+}
+#ice:hover{
+    background-image: linear-gradient(to bottom right, rgb(26, 172, 147),#e07a5f);
+    transition: background-image 0.5s;
+}
+#me{
+    padding: 10px;
+    grid-column:2/3;
+    grid-row:3/4;
+}
+#me:hover{
+    background-image: linear-gradient(to bottom right, rgb(89, 224, 134),#7e5449);
+    transition: background-image 0.5s;
+}
+/* Footer Section */
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#f_logo{
+    font-family: "Italianno", cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color:#e07a5f;
+    margin:0px;
+    padding:0px;
+}
+#f_logo:hover{
+    transform: rotate(-360deg);
+    transition: transform 0.5s;
+    text-shadow: 0px 0px 10px #f09379;
+}
+
+/*Image Gallery*/
+/*How can I get the text to be centered vertically?*/
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    justify-content: space-between;    
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.gallery_item{
+    margin: 20px;
+    border: 2px solid #f2cc8f;
+    width: 300px;
+}
+.gallery_item:hover{
+    border: 2px solid #ebad4b;
+}
+.gallery_item img{
+    width:100%;
+    height: auto;
+    border-radius: 0px;
+}
+.gallery_item img:hover{
+  transform: scale(1.0);
+}
+.desc{
+    color: #fff7ed;
+    padding: 15px;
+    text-align: center;
+}
+.desc:hover{
+    text-shadow: 0px 0px 10px rgb(247, 232, 232);
+}
