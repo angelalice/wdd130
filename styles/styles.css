@@ -330,6 +330,7 @@ footer{
     color: white;
     font-family: 'DM Sans', sans-serif;
     display: block;
+    margin: 2px;
 }
 #lead a{
     text-decoration: none;
@@ -340,9 +341,11 @@ footer{
     text-decoration: none;
     color: white;
     font-family: 'DM Sans', sans-serif;
+
 }
 #general a{
     text-decoration: none;
     color: white;
     font-family: 'DM Sans', sans-serif;
+   
 }
