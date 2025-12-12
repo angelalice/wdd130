@@ -331,21 +331,24 @@ footer{
     font-family: 'DM Sans', sans-serif;
     display: block;
     margin: 2px;
+    filter:blur(0.5px);
 }
 #lead a{
     text-decoration: none;
     color: white;
     font-family: 'DM Sans', sans-serif;
+    filter:blur(0.5px);
 }
 #client a{
     text-decoration: none;
     color: white;
     font-family: 'DM Sans', sans-serif;
-
+    filter:blur(0.5px);
+    margin-left: 4px;
 }
 #general a{
     text-decoration: none;
     color: white;
     font-family: 'DM Sans', sans-serif;
-   
+    filter:blur(0.5px);
 }
